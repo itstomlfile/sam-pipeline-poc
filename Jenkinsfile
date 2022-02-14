@@ -5,8 +5,8 @@ pipeline {
     SAM_TEMPLATE = 'sam-app/template.yaml'
     MAIN_BRANCH = 'main'
     TESTING_STACK_NAME = 'sam-app-dev'
-    TESTING_PIPELINE_EXECUTION_ROLE = 'arn:aws:iam::394500069381:role/aws-sam-cli-managed-dev-pipe-PipelineExecutionRole-2U6UY4Q7RSP7'
-    TESTING_CLOUDFORMATION_EXECUTION_ROLE = 'arn:aws:iam::394500069381:role/aws-sam-cli-managed-dev-p-CloudFormationExecutionR-KX3RPM0R9NY1'
+    TESTING_PIPELINE_EXECUTION_ROLE = 'arn:aws:iam::810102036360:role/aws-sam-cli-managed-dev-pipe-PipelineExecutionRole-2U6UY4Q7RSP7'
+    TESTING_CLOUDFORMATION_EXECUTION_ROLE = 'arn:aws:iam::810102036360:role/aws-sam-cli-managed-dev-p-CloudFormationExecutionR-KX3RPM0R9NY1'
     TESTING_ARTIFACTS_BUCKET = 'aws-sam-cli-managed-dev-pipeline-artifactsbucket-bivn3oqjcoi5'
     // If there are functions with "Image" PackageType in your template,
     // uncomment the line below and add "--image-repository ${TESTING_IMAGE_REPOSITORY}" to
@@ -14,8 +14,8 @@ pipeline {
     // TESTING_IMAGE_REPOSITORY = '0123456789.dkr.ecr.region.amazonaws.com/repository-name'
     TESTING_REGION = 'us-east-1'
     PROD_STACK_NAME = 'sam-app-prod'
-    PROD_PIPELINE_EXECUTION_ROLE = 'arn:aws:iam::394500069381:role/aws-sam-cli-managed-prod-pip-PipelineExecutionRole-1RPUF74P7IPA2'
-    PROD_CLOUDFORMATION_EXECUTION_ROLE = 'arn:aws:iam::394500069381:role/aws-sam-cli-managed-prod-CloudFormationExecutionR-1K79G7WANYIY8'
+    PROD_PIPELINE_EXECUTION_ROLE = 'arn:aws:iam::810102036360:role/aws-sam-cli-managed-prod-pip-PipelineExecutionRole-1RPUF74P7IPA2'
+    PROD_CLOUDFORMATION_EXECUTION_ROLE = 'arn:aws:iam::810102036360:role/aws-sam-cli-managed-prod-CloudFormationExecutionR-1K79G7WANYIY8'
     PROD_ARTIFACTS_BUCKET = 'aws-sam-cli-managed-prod-pipeline-artifactsbucket-6cn2mcvnfutb'
     // If there are functions with "Image" PackageType in your template,
     // uncomment the line below and add "--image-repository ${PROD_IMAGE_REPOSITORY}" to
